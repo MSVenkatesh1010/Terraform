@@ -1,8 +1,8 @@
-resource "aws_instance" "demoIns" {
+uresource "aws_instance" "demoIns" {
   ami           = "ami-05b10e08d247fb927"
-  instance_type = "t2.micro"
+  instance_type = "t2.medium"
 
   tags={
-    Name = "FirstEC2"
+    Name = "changedEC2"
   }
  }
